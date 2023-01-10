@@ -1,0 +1,201 @@
+// Book_Now
+
+.book_now {
+
+    padding-bottom: 60px;
+
+    .bk_nw_otr {
+        @include only_Flex();
+        align-items: center;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+        height: 140px;
+        border-radius: 30px;
+
+    }
+
+    .bk_nw_inr {
+        display: grid;
+        place-items: center;
+        height: 100%;
+        width: 22%;
+        position: relative;
+        border-right: 1px solid #e9e9e9;
+
+
+        #dycalendar {
+            position: absolute;
+            left: 9px;
+            top: 80%;
+            box-shadow: -1px -1px 10px rgb(0 0 0 / 50%);
+            border-radius: 10px;
+            background-color: $bg_white;
+            opacity: 0;
+            transition: 0.7s all;
+
+        }
+
+        .dt_picker {
+            @include only_Flex();
+            gap: 15px;
+            cursor: pointer;
+        }
+
+        .pck_up_cty {
+            @include only_Flex();
+            gap: 15px;
+        }
+    }
+
+    .dycalendar-body table {
+        width: 100%;
+        border-spacing: 15px;
+
+        tr:nth-child(1) td {
+            background-color: $bg_regular;
+            color: $bg_white;
+            font-weight: 600;
+            border-radius: 10px;
+        }
+
+        tr:nth-child(1) td:nth-child(1) {
+            background-color: $bg_black;
+        }
+    }
+
+    td {
+        color: $bg_regular;
+        padding: 5px;
+        cursor: pointer;
+        font-weight: 500;
+        border-radius: 10px;
+        font-size: 15px;
+        box-shadow: 5px 5px 10px #0001,
+            -5px -5px 10px rgba(255, 255, 255, 1);
+
+
+        &:hover {
+            box-shadow: inset 5px 5px 10px #0001,
+                inset -5px -5px 10px rgba(255, 255, 255, 0.5);
+        }
+
+        &:first-child {
+            color: $bg_black;
+        }
+    }
+
+    .dycalendar-month-container .dycalendar-target-date {
+        background-color: $bg_regular;
+        border-radius: 10px;
+
+    }
+
+    .dycalendar-month-container .dycalendar-prev-next-btn.prev-btn {
+        width: 25px;
+        height: 25px;
+        background-color: $bg_regular;
+        display: grid;
+        place-items: center;
+        font-size: 13px;
+        color: $bg_white;
+        font-weight: bold;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 10px;
+        left: 13px !important;
+    }
+
+    .dycalendar-month-container .dycalendar-prev-next-btn.next-btn {
+        width: 25px;
+        height: 25px;
+        background-color: $bg_regular;
+        display: grid;
+        place-items: center;
+        font-size: 13px;
+        color: $bg_white;
+        font-weight: bold;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 10px;
+        right: 13px !important;
+    }
+
+    .dycalendar-month-container .dycalendar-header {
+        margin-bottom: 10px;
+    }
+
+    .dycalendar-month-container .dycalendar-span-month-year {
+        font-size: 18px;
+        color: $bg_regular;
+        font-weight: 700;
+    }
+
+    .cntnt p {
+        font-size: 20px;
+        padding-bottom: 10px;
+        padding: 0;
+    }
+
+    .cntnt p:last-child {
+        font-size: 18px;
+        color: #a1a1a1;
+        margin-top: 10px;
+    }
+
+    .time {
+        @include only_Flex();
+        gap: 15px;
+    }
+
+    .bk_nw_btn {
+        width: 12%;
+        height: 100%;
+
+
+        .bk_btn {
+            color: $bg_white;
+            font-weight: 600;
+            transition: 0.5s all;
+            height: 100%;
+            width: 100%;
+            display: grid;
+            place-items: center;
+            background-color: $bg_black;
+            border-radius: 0 30px 30px 0px;
+
+
+            &:hover {
+                background-color: #141412ee;
+            }
+        }
+    }
+}
+
+// icon Sec
+
+.icon_sec {
+    padding-top: 50px;
+
+    .icn_otr {
+        @include flex_Between();
+
+        .icn_inr {
+            width: 28%;
+            padding: 40px;
+            box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+            border-radius: 10px;
+
+            .cmn_hdr p {
+                margin: 10px 0;
+                text-align: center;
+
+                &:last-child {
+                    font-size: 18px;
+                }
+            }
+
+            .img_otr img {
+                margin-inline: auto;
+            }
+        }
+    }
+}

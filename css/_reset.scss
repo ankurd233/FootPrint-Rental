@@ -1,0 +1,99 @@
+// Reset Css
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scrollbar-width: 15px;
+    scrollbar-color: #e9c153 #fff;
+}
+
+
+/* scrollbar */
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 16px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #e9c153;
+    border-radius: 10px;
+    border: 3px solid #fff;
+}
+
+body {
+    font-family: $Roboto;
+    font-size: 24px;
+}
+
+ul,
+ol,
+dl {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+button,
+input[type='submit'],
+input[type='reset'],
+a {
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+::selection {
+    color: #fff;
+    background: #54524f;
+}
+
+*:focus {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+h1,
+
+h2,
+
+h3,
+
+h4,
+
+h5,
+
+h6 {
+    line-height: normal;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 1560px;
+    margin: 0 auto;
+}
+
+/*****************/

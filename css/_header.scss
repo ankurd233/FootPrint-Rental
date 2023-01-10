@@ -1,0 +1,83 @@
+// Header
+
+header {
+    position: relative;
+    z-index: 9999;
+    background-color: $bg_white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    .logo {
+        width: 217px;
+        height: 66px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .hdr_outr {
+        @include flex_Between();
+        padding: 20px 0;
+
+        .nav_sec {
+            @include flex_Between();
+            gap: 70px;
+        }
+
+        ul {
+            @include only_Flex();
+            align-items: center;
+            gap: 70px;
+
+            a {
+                font-size: 20px;
+                color: $bg_black;
+                font-weight: 700;
+                position: relative;
+                text-transform: uppercase;
+                font-family: $Roboto;
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    background-color: $bg_regular;
+                    width: 0;
+                    height: 3px;
+                    bottom: -3px;
+                    left: 0;
+                    transition: 0.5s all;
+                }
+
+                &:hover {
+                    color: $bg_regular;
+                }
+
+                &:hover:after {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .btn_sec {
+        @include only_Flex();
+        gap: 30px;
+        align-items: center;
+    }
+
+    .cmn_btn:last-child {
+        background-color: transparent;
+        border: none;
+        color: $bg_black;
+        padding: 0;
+
+        &:hover {
+            color: $bg_regular;
+        }
+    }
+
+    .hamburger {
+        display: none;
+    }
+}

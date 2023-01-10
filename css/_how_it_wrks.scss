@@ -1,0 +1,155 @@
+// CSS
+
+.hw_it_wrks.cmn_pdding {
+    background: #fcfdfb;
+    padding-bottom: 0;
+
+    .cmn_hdr {
+        text-align: center;
+
+        h2 {
+            font-weight: 200;
+
+            span {
+                font-weight: 700;
+                color: $bg_regular;
+            }
+        }
+
+        img {
+            margin-inline: auto;
+        }
+    }
+
+    .resp-tabs-list {
+        @include only_Flex();
+        justify-content: center;
+        align-items: baseline;
+
+        li {
+            float: none;
+            border: none;
+            font-size: 18px;
+            font-family: $Helvetica;
+            width: 140px;
+            text-align: center;
+        }
+
+        .resp-tab-item {
+            padding: 13px 15px !important;
+            background-color: $bg_white;
+            border: 1px solid $bg_black;
+            color: #000;
+        }
+
+        .resp-tab-item.resp-tab-active {
+            padding: 13px 15px !important;
+            background-color: $bg_regular;
+            border: 1px solid $bg_regular;
+            color: $bg_white;
+        }
+    }
+
+    .resp-tab-content {
+        border: none;
+        padding: 0;
+    }
+
+    #horizontalTab {
+        margin-top: 40px !important;
+    }
+
+    .resp-tabs-container {
+        margin-top: 40px;
+    }
+
+    .tab_cntnt {
+        @include flex_Between();
+        isolation: isolate;
+
+        .tab_cntnt_otr {
+            width: 400px;
+            padding: 40px;
+            border: 1px solid #dcdcdc;
+            background-color: $bg_white;
+            border-radius: 5px;
+            position: relative;
+            transition: all 0.5s;
+
+            &:hover {
+                border-color: $bg_regular;
+            }
+
+            &:after {
+                content: "";
+                position: absolute;
+                background-image: url(../images/tab_right_brdr.png);
+                width: 195px;
+                height: 35px;
+                background-size: 100% 100%;
+                right: -47%;
+                top: 50%;
+                transform: translateY(-50%);
+                z-index: -1;
+            }
+
+            &:last-child::after {
+                display: none;
+            }
+
+            .img_otr {
+                width: 122px;
+                height: 122px;
+                border-radius: 50%;
+                outline: 1px solid #d1d1d1;
+                outline-offset: 10px;
+                display: grid;
+                place-items: center;
+                background-color: #f1f1f1;
+                margin-inline: auto;
+                margin-bottom: 40px;
+                transition: 0.5s all;
+            }
+
+            .cmn_hdr p:first-child {
+                font-weight: 700;
+                position: relative;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 50px;
+                    background: $bg_regular;
+                    height: 4px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    bottom: 5px;
+                    border-radius: 10px;
+                }
+            }
+
+            .cmn_hdr p:last-child {
+                font-weight: 300;
+                font-size: 18px;
+            }
+
+
+        }
+    }
+
+    .bg_img {
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .tab_cntnt_otr:hover .img_otr {
+        background-color: #e9c153;
+    }
+
+    .tab_cntnt_otr:hover .img_inr img {
+        filter: brightness(0) invert(1);
+    }
+}

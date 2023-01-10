@@ -1,0 +1,37 @@
+// pays for itself
+
+.pays_for_itself {
+
+    .cmn_hdr {
+        text-align: center;
+
+        img {
+            margin-inline: auto;
+        }
+
+        span {
+            color: $bg_regular;
+            font-weight: 700;
+        }
+
+        p {
+            width: 970px;
+            margin-inline: auto;
+            font-weight: 300;
+            color: #6e6e6e;
+        }
+    }
+
+    .pays-btn {
+        text-align: center;
+        margin-top: 20px;
+
+        .cmn_btn {
+            color: $bg_black;
+
+            &:hover {
+                color: $bg_regular;
+            }
+        }
+    }
+}

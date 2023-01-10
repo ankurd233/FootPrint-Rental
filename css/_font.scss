@@ -1,0 +1,29 @@
+/*added font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;700;900&display=swap');
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/helvetica_medium_condensed-webfont.woff2') format('woff2'),
+        url('../fonts/helvetica_medium_condensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/helvetica_black_condensed-webfont.woff2') format('woff2'),
+        url('../fonts/helvetica_black_condensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/helvetica_roman-webfont.woff2') format('woff2'),
+        url('../fonts/helvetica_roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Added Font End */

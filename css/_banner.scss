@@ -1,0 +1,55 @@
+// Banner Start
+
+.banner {
+    .bnr_otr {
+        @include flex_Between();
+
+        .bnr_inr {
+            width: 48%;
+
+            .cmn_hdr p {
+                text-transform: uppercase;
+                padding: 10px 0;
+            }
+
+            .cmn_hdr P:last-child {
+                text-transform: capitalize;
+                padding: 10px 0;
+            }
+
+            h1 {
+                font-size: 69px;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-family: $Helvetica;
+            }
+
+            .bnr_btn {
+                @include only_Flex();
+                gap: 30px;
+                margin-top: 30px;
+
+                .cmn_btn:first-child {
+                    text-transform: uppercase;
+                    font-weight: 400;
+                    background: $bg_black;
+
+                    &:hover {
+                        color: $bg_black;
+                        border-color: $bg_black;
+                    }
+                }
+
+                .cmn_btn:last-child {
+                    color: $bg_black;
+
+                    &:hover {
+                        color: $bg_regular;
+                    }
+                }
+            }
+        }
+    }
+
+
+}

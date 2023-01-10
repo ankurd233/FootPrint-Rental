@@ -1,0 +1,1256 @@
+@media (max-width: 1920px) {}
+
+@media (max-width: 1680px) {
+    .container {
+        max-width: 1450px;
+    }
+
+    header {
+        .logo {
+            display: inline-block;
+
+            img {
+                object-fit: contain;
+            }
+        }
+
+        .hdr_outr {
+
+            .nav_sec {
+                gap: 40px;
+            }
+
+            ul {
+                gap: 45px;
+
+                a {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+
+    .cmn_btn {
+        font-size: 17px;
+        padding: 12px 25px;
+    }
+
+    .cmn_hdr p {
+        font-size: 21px;
+    }
+
+    .banner .bnr_otr .bnr_inr h1 {
+        font-size: 56px;
+    }
+
+    .banner .bnr_otr .bnr_inr .bnr_btn {
+        margin-top: 20px;
+    }
+
+    .book_now .bk_nw_otr {
+        height: 120px;
+    }
+
+    .book_now .bk_nw_btn .bk_btn {
+        font-size: 20px;
+    }
+
+    .cmn_hdr h2 {
+        font-size: 50px;
+    }
+
+    .rentcars {
+        .flx_inr {
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .cmn_pdding {
+        padding: 70px 0;
+    }
+
+    .hw_it_wrks.cmn_pdding .tab_cntnt .tab_cntnt_otr:after {
+        width: 180px;
+        height: 30px;
+        right: -39%;
+    }
+
+    .tab_cntnt_otr .img_inr {
+        width: 75px;
+        height: 30px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .tab_cntnt_otr:nth-child(2) .img_inr {
+        width: 50px;
+        height: 50px;
+    }
+
+    .tab_cntnt_otr:nth-child(3) .img_inr {
+        width: 50px;
+        height: 64px;
+    }
+
+    .hw_it_wrks.cmn_pdding .tab_cntnt .tab_cntnt_otr {
+        padding: 30px;
+    }
+
+    .hw_it_wrks.cmn_pdding .tab_cntnt .tab_cntnt_otr .img_otr {
+        width: 95px;
+        height: 95px;
+        outline-offset: 7px;
+    }
+
+    .swpr_sld-inr .mn_cntnt p {
+        font-size: 21px;
+    }
+
+    .pays_for_itself .cmn_hdr p {
+        width: 850px;
+    }
+
+}
+
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1340px;
+    }
+
+    header .logo {
+        width: 160px;
+        height: 60px;
+    }
+
+    header .hdr_outr ul a {
+        font-size: 16px;
+    }
+
+    .cmn_btn {
+        font-size: 16px;
+    }
+
+    header .hdr_outr .nav_sec {
+        gap: 30px;
+    }
+
+    .cmn_hdr p {
+        font-size: 20px;
+    }
+
+    .banner .bnr_otr .bnr_inr h1 {
+        font-size: 48px;
+    }
+
+    .book_now .bk_nw_otr {
+        height: 100px;
+    }
+
+    .icon_sec .icn_otr .icn_inr {
+        width: 32%;
+        padding: 25px;
+    }
+
+    .icon_sec .icn_otr .icn_inr .img_otr {
+        width: 66px;
+        height: 70px;
+        object-fit: contain;
+        margin-inline: auto;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+    }
+
+    .hw_it_wrks.cmn_pdding .tab_cntnt .tab_cntnt_otr:after {
+        width: 107px;
+        height: 20px;
+        right: -22%;
+    }
+
+    .swpr_sld-inr .mn_cntnt p {
+        font-size: 20px;
+    }
+
+    .cstmr_sec .customer_swpr_otr .swpr_otr .swpr_sld-inr {
+        padding: 28px 20px;
+        height: 250px;
+    }
+
+    .cstmr_sec .customer_swpr_otr .swpr_otr .swiper-slide-active .swpr_sld-inr {
+        height: 300px;
+    }
+
+    .cstmr_sec .customer_swpr_otr .swpr_otr {
+        padding: 60px 0;
+    }
+
+    .cmn_pdding {
+        padding: 45px 0;
+    }
+
+    .pays_for_itself {
+        height: 550px !important;
+    }
+
+    footer:after {
+        width: 157px;
+        height: 172px;
+    }
+
+    footer .ftr_otr .ftr_inr li {
+        margin-bottom: 18px;
+    }
+
+    footer .ftr_otr .ftr_inr {
+        width: 36%;
+    }
+
+    footer .ftr_otr .ftr_inr .str_btn a {
+        padding: 5px;
+    }
+
+    footer .ftr_btm p {
+        font-size: 17px;
+    }
+
+    footer .ftr_btm a {
+        font-size: 24px;
+    }
+
+    .cmn_hdr h2 {
+        font-size: 44px;
+    }
+
+    .pays_for_itself .cmn_hdr p {
+        width: 800px;
+    }
+}
+
+
+
+@media (max-width: 1366px) {
+    .container {
+        max-width: 1240px;
+    }
+}
+
+
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    header .logo {
+        width: 147px;
+        height: 52px;
+    }
+
+    header .hdr_outr ul a {
+        font-size: 15px;
+    }
+
+    .cmn_btn {
+        font-size: 15px;
+    }
+
+    header .hdr_outr ul {
+        gap: 35px;
+    }
+
+    .cmn_hdr p {
+        font-size: 18px;
+    }
+
+    .book_now .bk_nw_inr .pck_up_cty {
+        gap: 10px;
+    }
+
+    .book_now .cntnt p {
+        font-size: 16px;
+    }
+
+    .book_now .cntnt p:last-child {
+        font-size: 13px;
+    }
+
+    .pck_up_cty span {
+        font-size: 15px;
+        display: inline-block;
+    }
+
+    .dt_picker span {
+        font-size: 15px;
+        display: inline-block;
+    }
+
+    .dt_picker input {
+        font-size: 13px;
+    }
+
+    .book_now .bk_nw_inr .dt_picker {
+        align-items: center;
+    }
+
+    .time span {
+        font-size: 15px;
+    }
+
+    .book_now .bk_nw_btn .bk_btn {
+        font-size: 16px;
+    }
+
+    .book_now .bk_nw_otr {
+        height: 75px;
+    }
+
+    .rentcars .flx_inr p {
+        font-size: 17px;
+    }
+
+    .rentcars .rnt_car_otr .rnt_car_inr .rnt_cntnt .flx_otr .flx_inr h5 span {
+        font-size: 26px;
+    }
+
+    .rentcars .rnt_car_otr .rnt_car_inr .rnt_cntnt .flx_otr .flx_inr h5 {
+        font-size: 14px;
+    }
+
+    .cmn_hdr h2 {
+        font-size: 38px;
+    }
+
+    .hw_it_wrks.cmn_pdding .resp-tabs-list li {
+        font-size: 16px;
+    }
+
+    .tab_cntnt_otr .img_inr {
+        width: 60px;
+        height: 26px;
+    }
+
+    .hw_it_wrks.cmn_pdding .tab_cntnt .tab_cntnt_otr .img_otr {
+        width: 80px;
+        height: 80px;
+        outline-offset: 5px;
+    }
+
+    .tab_cntnt_otr:nth-child(2) .img_inr {
+        width: 46px;
+        height: 43px;
+    }
+
+    .tab_cntnt_otr:nth-child(3) .img_inr {
+        width: 45px;
+        height: 56px;
+    }
+
+    .hw_it_wrks.cmn_pdding .tab_cntnt .tab_cntnt_otr .cmn_hdr p:last-child {
+        font-size: 15px;
+    }
+
+    .cstmr_sec .cmn_hdr .rating {
+        h2 {
+            font-size: 40px;
+        }
+
+
+        span {
+            font-size: 20px;
+        }
+    }
+
+    .swpr_sld-inr .mn_cntnt p {
+        font-size: 16px;
+    }
+
+    .cstmr_sec .customer_swpr_otr .swpr_otr .swpr_sld-inr {
+        height: 220px;
+    }
+
+    .cstmr_sec .customer_swpr_otr .swpr_otr .swiper-slide-active .swpr_sld-inr {
+        height: 250px;
+    }
+
+    .cstmr_sec .customer_swpr_otr .swpr_otr .cmn_hdr h6 {
+        font-size: 14px;
+    }
+
+    .cstmr_sec .customer_swpr_otr .swpr_otr .swpr_sld-inr .man_img {
+        height: 65px;
+        width: 65px;
+        background-size: 100% 100%;
+    }
+
+    .cstmr_sec .customer_swpr_otr .swpr_otr .swpr_btn a {
+        font-size: 15px;
+    }
+
+    .pays_for_itself .cmn_hdr p {
+        width: 650px;
+    }
+
+    .pays_for_itself {
+        height: 480px !important;
+    }
+
+    footer:after {
+        width: 141px;
+        height: 155px;
+    }
+
+    footer .ftr_otr .ftr_inr .str_btn a {
+        width: 120px;
+        height: 43px;
+    }
+
+    footer .ftr_otr .ftr_inr li a {
+        font-size: 15px;
+    }
+
+    footer .ftr_otr .ftr_inr:nth-child(2),
+    footer .ftr_otr .ftr_inr:nth-child(3),
+    footer .ftr_otr .ftr_inr:nth-child(4) {
+        width: 17%;
+    }
+
+    footer .ftr_otr .ftr_inr .cntnt P {
+        font-size: 15px;
+        line-height: 2;
+    }
+
+    footer .ftr_otr .ftr_inr li {
+        margin-bottom: 10px;
+    }
+
+    footer .ftr_btm p,
+    footer .ftr_btm p a {
+        font-size: 15px;
+    }
+
+    footer .ftr_btm a {
+        font-size: 20px;
+    }
+
+    .ftr_logo {
+        width: 150px;
+        height: 60px;
+    }
+
+    footer .ftr_otr .ftr_inr h5 {
+        padding-bottom: 15px;
+        font-size: 18px;
+    }
+
+    .hw_it_wrks.cmn_pdding .tab_cntnt .tab_cntnt_otr {
+        width: 29%;
+    }
+
+    .hw_it_wrks.cmn_pdding .tab_cntnt .tab_cntnt_otr:after {
+        width: 90px;
+        height: 16px;
+        right: -25%;
+    }
+}
+
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 1080px) {
+
+    header .hdr_outr {
+        padding: 15px 0;
+    }
+
+    header .hdr_outr ul a {
+        font-size: 14px;
+    }
+
+    .cmn_btn {
+        padding: 10px 22px;
+        font-size: 14px;
+    }
+
+    .cmn_hdr p {
+        font-size: 15px;
+    }
+
+    .banner .bnr_otr .bnr_inr h1 {
+        font-size: 35px;
+    }
+
+    .banner .bnr_otr .bnr_inr .bnr_btn {
+        margin-top: 10px;
+    }
+
+    .book_now .cntnt p {
+        font-size: 14px;
+    }
+
+    .book_now .bk_nw_btn .bk_btn {
+        font-size: 14px;
+    }
+
+    .book_now .bk_nw_otr {
+        height: 70px;
+    }
+
+    .icon_sec .icn_otr .icn_inr .img_otr {
+        width: 55px;
+        height: 58px;
+    }
+
+    .icon_sec .icn_otr .icn_inr .cmn_hdr p:last-child {
+        font-size: 14px;
+    }
+
+    .cmn_hdr h2 {
+        font-size: 33px;
+    }
+
+    .rentcars .rnt_car_otr .rnt_car_inr .rnt_cntnt {
+        width: 95%;
+        padding: 20px 10px;
+    }
+
+    .tab_cntnt_otr .img_inr {
+        width: 52px;
+        height: 22px;
+    }
+
+    .tab_cntnt_otr:nth-child(2) .img_inr {
+        width: 42px;
+        height: 39px;
+    }
+
+    .tab_cntnt_otr:nth-child(3) .img_inr {
+        width: 40px;
+        height: 52px;
+    }
+
+    .hw_it_wrks.cmn_pdding .tab_cntnt .tab_cntnt_otr:after {
+        width: 82px;
+        height: 14px;
+        right: -25%;
+    }
+
+    .swpr_sld-inr .mn_cntnt p {
+        font-size: 15px;
+    }
+
+    .cstmr_sec .customer_swpr_otr .swpr_otr .swpr_btn {
+        margin-top: 15px;
+    }
+
+    .cstmr_sec .customer_swpr_otr .swpr_otr .swpr_sld-inr {
+        height: 200px;
+    }
+
+    .cstmr_sec .customer_swpr_otr .swpr_otr .swiper-slide-active .swpr_sld-inr {
+        height: 230px;
+    }
+
+    cstmr_sec .customer_swpr_otr .swpr_otr {
+        padding: 50px 0;
+    }
+
+    .pays_for_itself {
+        height: 450px !important;
+    }
+
+    footer .ftr_otr .ftr_inr {
+        width: 40%;
+    }
+
+    .pays_for_itself .cmn_hdr p {
+        width: 580px;
+    }
+
+    footer .ftr_otr .ftr_inr .cntnt P {
+        font-size: 14px;
+    }
+
+    footer:after {
+        width: 114px;
+        height: 124px;
+    }
+
+    footer .ftr_otr .ftr_inr li a {
+        font-size: 14px;
+    }
+
+    footer .ftr_btm p,
+    footer .ftr_btm p a {
+        font-size: 14px;
+    }
+
+    footer .ftr_btm a {
+        font-size: 18px;
+    }
+
+    footer .ftr_btm .social_icns {
+        gap: 15px;
+    }
+
+    footer .ftr_otr .ftr_inr h5 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 991px) {
+
+    .book_now .bk_nw_otr {
+        min-height: 100px;
+    }
+
+    .book_now .cntnt p {
+        font-size: 13px;
+    }
+
+    .book_now .bk_nw_inr .pck_up_cty,
+    .book_now .bk_nw_inr .dt_picker,
+    .book_now .time {
+        display: block;
+        text-align: center;
+    }
+
+    .dt_picker input {
+        text-align: center;
+    }
+}
+
+@media (max-width: 900px) {
+    .banner .bnr_otr .bnr_inr {
+        width: 49%;
+    }
+
+    .banner .bnr_otr .bnr_inr h1 {
+        font-size: 30px;
+    }
+
+    .cmn_hdr p {
+        font-size: 14px;
+    }
+
+    header .hdr_outr ul a {
+        font-size: 13px;
+    }
+
+    .cmn_btn {
+        padding: 8px 20px;
+        font-size: 13px;
+    }
+
+    .rentcars .rnt_btn {
+        padding-top: 80px;
+    }
+
+    .cmn_pdding {
+        padding: 35px 0;
+    }
+
+    .hw_it_wrks.cmn_pdding .tab_cntnt .tab_cntnt_otr {
+        width: 30%;
+    }
+
+    .hw_it_wrks.cmn_pdding .tab_cntnt .tab_cntnt_otr:after {
+        right: -24%;
+    }
+
+    .hw_it_wrks.cmn_pdding .tab_cntnt .tab_cntnt_otr {
+        padding: 15px;
+    }
+
+    .hw_it_wrks.cmn_pdding #horizontalTab {
+        margin-top: 25px !important;
+    }
+
+    .cstmr_sec .customer_swpr_otr .swpr_otr .swpr_sld-inr {
+        height: 180px;
+    }
+
+    .cstmr_sec .customer_swpr_otr .swpr_otr .swiper-slide-active .swpr_sld-inr {
+        height: 210px;
+    }
+
+    .pays_for_itself {
+        height: 400px !important;
+    }
+
+    footer .ftr_otr .ftr_inr .cntnt P {
+        font-size: 13px;
+    }
+
+    footer .ftr_otr .ftr_inr li a {
+        font-size: 13px;
+    }
+
+    footer .ftr_otr .ftr_inr li {
+        margin-bottom: 5px;
+    }
+
+    footer .ftr_otr .ftr_inr h5 {
+        font-size: 15px;
+    }
+
+    footer .ftr_otr .ftr_inr {
+        width: 32%;
+    }
+
+    footer .ftr_otr .ftr_inr:nth-child(2),
+    footer .ftr_otr .ftr_inr:nth-child(3),
+    footer .ftr_otr .ftr_inr:nth-child(4) {
+        width: 20%;
+    }
+
+    footer .ftr_btm p,
+    footer .ftr_btm p a {
+        font-size: 13px;
+    }
+
+    footer .ftr_btm a {
+        font-size: 16px;
+    }
+
+    footer .ftr_otr .ftr_inr .str_btn a {
+        width: 110px;
+        height: 40px;
+    }
+
+    footer .ftr_otr .ftr_inr .str_btn {
+        margin-top: 20px;
+    }
+
+    footer:after {
+        width: 108px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 840px) {
+    .rentcars .flx_inr p {
+        font-size: 14px;
+    }
+
+    .rentcars .rnt_car_otr .rnt_car_inr .rnt_cntnt .flx_otr h6 {
+        font-size: 13px;
+    }
+
+    .rentcars .rnt_car_otr .rnt_car_inr .rnt_cntnt .flx_otr .flx_inr h5 span {
+        font-size: 22px;
+    }
+
+    .rentcars .rnt_car_otr .rnt_car_inr .rnt_cntnt {
+        padding: 10px;
+    }
+
+    .cmn_hdr h2 {
+        font-size: 28px;
+    }
+
+    .hw_it_wrks.cmn_pdding .resp-tabs-list li {
+        font-size: 14px;
+        width: 130px;
+    }
+
+    .pays_for_itself {
+        height: 370px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .pays_for_itself {
+        height: 340px !important;
+    }
+
+    .hw_it_wrks.cmn_pdding .resp-tabs-list {
+        display: none;
+    }
+
+    .hw_it_wrks.cmn_pdding .tab_cntnt {
+        padding-top: 20px;
+    }
+
+    .hw_it_wrks.cmn_pdding .resp-tabs-container {
+        margin: 0;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* For Header Portion */
+
+    header {
+        background-color: #fff;
+        padding: 10px 20px;
+        position: relative;
+        border-bottom: 1px solid $bg_black;
+
+        .hdr_outr {
+            padding: 0;
+
+            ul {
+                display: block;
+                padding: 0;
+                text-align: center;
+
+                li {
+                    padding: 15px 0;
+                    box-shadow: 0 10px 10px -3px rgba(0, 0, 0, 0.4);
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    a {
+                        color: $bg_black;
+                        display: inline-block;
+
+                        &:hover {
+
+                            color: #333;
+                        }
+                    }
+                }
+            }
+        }
+
+        /* For Nav Open*/
+
+        .nav_items {
+            position: absolute;
+            left: 0;
+            top: 100%;
+            width: 100%;
+            display: none;
+        }
+
+        .nav_items.active {
+            display: block;
+            border-top: 1px solid $bg_black;
+            padding: 0 0 10px 0;
+            background-color: $bg_white;
+        }
+
+        .hamburger {
+            display: block;
+            position: absolute;
+            cursor: pointer;
+            right: 20px;
+            top: 50%;
+            transform: translate(-5%, -50%);
+            transition: all 0.7s ease;
+
+            div {
+                width: 20px;
+                height: 2px;
+                background: #000;
+                margin: 5px;
+                transition: all 0.3s ease;
+            }
+        }
+
+        .hamburger.active {
+            .line1 {
+                transform: rotate(-45deg) translate(-4px, 5px);
+            }
+
+            .line2 {
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            .line3 {
+                transform: rotate(45deg) translate(-5px, -6px);
+            }
+        }
+
+        .nav_sec {
+            gap: 0;
+        }
+    }
+
+    /* Nav LI Animation */
+
+    header .hdr_outr ul li {
+        transform: rotateX(90deg);
+        transform-origin: bottom;
+        animation: animate 600ms ease-in-out forwards;
+
+    }
+
+    @keyframes animate {
+        to {
+            transform: rotateX(0);
+            -webkit-transform: rotateX(0);
+            -moz-transform: rotateX(0);
+            -ms-transform: rotateX(0);
+            -o-transform: rotateX(0);
+            opacity: 1;
+        }
+    }
+
+    header .hdr_outr ul li:nth-child(2) {
+        animation-delay: 200ms;
+    }
+
+    header .hdr_outr ul li:nth-child(3) {
+        animation-delay: 400ms;
+    }
+
+    // header .hdr_outr ul li:nth-child(4) {
+    //     animation-delay: 600ms;
+    // }
+
+    // header .hdr_outr ul li:nth-child(5) {
+    //     animation-delay: 800ms;
+    // }
+
+    // header .hdr_outr ul li:nth-child(6) {
+    //     animation-delay: 1000ms;
+    // }
+
+    // header .hdr_outr ul li:nth-child(7) {
+    //     animation-delay: 1200ms;
+    // }
+
+    // header .hdr_outr ul li:nth-child(8) {
+    //     animation-delay: 1400ms;
+    // }
+
+
+    /* Normal Css */
+
+    header.sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        animation: slide-down 0.7s linear;
+    }
+
+    @keyframes slide-down {
+        0% {
+            opacity: 0;
+            transform: translateY(-100%);
+            -moz-transform: translateY(-100%);
+            -webkit-transform: translateY(-100%);
+            -o-transform: translateY(-100%);
+            -ms-transform: translateY(-100%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+            -moz-transform: translateY(0);
+            -webkit-transform: translateY(0);
+            -o-transform: translateY(0);
+            -ms-transform: translateY(0);
+        }
+    }
+
+    header .btn_sec {
+        margin-right: 50px;
+    }
+
+    .banner .bnr_otr {
+        display: block;
+    }
+
+    .banner .bnr_otr .bnr_inr {
+        width: 100%;
+
+        .cmn_hdr {
+            text-align: center;
+        }
+
+        .bnr_btn {
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .img_otr {
+            width: 70%;
+            margin: 20px auto 0 auto;
+        }
+    }
+
+    .icon_sec .icn_otr {
+        display: block;
+
+        .icn_inr {
+            width: 50%;
+            margin: 20px auto 0;
+        }
+    }
+
+    .book_now {
+        padding-bottom: 40px;
+    }
+
+    .rentcars .rnt_car_otr {
+        display: block;
+
+        .rnt_car_inr {
+            width: 50%;
+            position: relative;
+            margin: auto;
+            margin-bottom: 100px;
+        }
+    }
+
+    .hw_it_wrks.cmn_pdding .tab_cntnt {
+        display: block;
+        margin-top: 50px;
+
+        .tab_cntnt_otr {
+            width: 60%;
+            margin: 0 auto 50px auto;
+        }
+    }
+
+    h2.resp-accordion {
+        border-top: 1px solid #c1c1c1;
+    }
+
+    .hw_it_wrks.cmn_pdding .tab_cntnt .tab_cntnt_otr:after {
+        right: 0;
+        margin: auto;
+        left: 0;
+        top: inherit;
+        transform: translate(-50%, -50%);
+        rotate: 90deg;
+        bottom: -32%;
+    }
+
+    footer .ftr_otr {
+        display: block;
+
+        .ftr_inr {
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    footer .ftr_otr .ftr_inr:nth-child(2),
+    footer .ftr_otr .ftr_inr:nth-child(3),
+    footer .ftr_otr .ftr_inr:nth-child(4) {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .ftr_otr .ftr_inr .str_btn {
+        margin-bottom: 30px;
+        justify-content: center;
+    }
+
+    .ftr_logo {
+        margin-inline: auto;
+    }
+
+    footer .ftr_otr .ftr_inr h5 {
+        padding: 10px 0;
+        border-bottom: 1px solid $bg_black;
+        display: inline-block;
+    }
+
+    .rentcars .rnt_btn {
+        padding-top: 0;
+    }
+
+    .book_now .bk_nw_otr,
+    .book_now .bk_nw_btn .bk_btn {
+        border-radius: 0;
+    }
+
+    .dt_picker input {
+        font-size: 11px !important;
+    }
+
+    .book_now .bk_nw_btn .bk_btn {
+        font-size: 11px;
+    }
+
+    .pays_for_itself .cmn_hdr p {
+        width: auto;
+    }
+
+    .book_now .bk_nw_btn {
+        text-align: center;
+    }
+
+    .cstmr_sec .customer_swpr_otr .swpr_otr .swpr_sld-inr {
+        height: auto;
+        border-color: $bg_black;
+    }
+
+    .cstmr_sec .customer_swpr_otr .swpr_otr .swiper-slide-active .swpr_sld-inr {
+        height: auto;
+    }
+}
+
+@media (max-width: 667px) {}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 575px) {
+
+    .book_now .cntnt p {
+        font-size: 10px;
+    }
+
+    .book_now .bk_nw_inr {
+        display: block;
+    }
+
+    .book_now .cntnt p:last-child {
+        font-size: 10px;
+    }
+
+    .icon_sec .icn_otr .icn_inr {
+        width: 70%;
+    }
+
+    .rentcars .rnt_car_otr .rnt_car_inr {
+        width: 70%;
+    }
+
+    .cstmr_sec .customer_swpr_otr .swpr_otr .swpr_btn {
+        margin: 0;
+    }
+
+    .pays_for_itself {
+        height: 300px !important;
+    }
+
+    .rentcars .rnt_car_otr .rnt_car_inr .rnt_cntnt {
+        border-radius: 0;
+        bottom: -30px;
+    }
+
+    .rentcars .rnt_car_otr .rnt_car_inr .img_otr {
+        border-radius: 0;
+    }
+
+    .pays_for_itself {
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+    .pays_for_itself .pays-btn {
+        margin: 0;
+    }
+
+    footer .ftr_btm {
+        flex-direction: column;
+        gap: 0;
+        row-gap: 20px;
+
+        p {
+            order: 2;
+        }
+
+        .social_icns {
+            order: 1;
+        }
+    }
+}
+
+@media (max-width: 484px) {
+
+    header {
+        background-color: #fff;
+        padding: 10px 0;
+    }
+
+    .rentcars .rnt_car_otr .rnt_car_inr {
+        margin-bottom: 70px;
+    }
+
+    footer .ftr_btm {
+        padding: 20px 0;
+    }
+
+    header .btn_sec {
+        display: flex;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .book_now .bk_nw_otr {
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: space-around;
+
+        .bk_nw_inr {
+            border: none;
+        }
+    }
+
+    .book_now .bk_nw_btn {
+        width: 22%;
+        margin: 20px 0;
+
+        a {
+            padding: 10px;
+        }
+    }
+
+    .rentcars .rnt_car_otr .rnt_car_inr {
+        width: 85%;
+    }
+
+    .icon_sec .icn_otr .icn_inr {
+        width: 85%;
+    }
+
+    .banner .bnr_otr .bnr_inr .img_otr {
+        width: 85%;
+    }
+
+    .hw_it_wrks.cmn_pdding .tab_cntnt .tab_cntnt_otr {
+        width: 85%;
+    }
+
+    .book_now .bk_nw_otr {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 384px) {
+    .cmn_hdr h2 {
+        font-size: 22px;
+    }
+
+    .book_now .bk_nw_btn .bk_btn {
+        font-size: 10px;
+    }
+
+    header .logo {
+        width: 100px;
+    }
+
+    header .hdr_outr ul li {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 375px) {}
+
+@media (max-width: 360px) {}

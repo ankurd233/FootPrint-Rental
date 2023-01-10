@@ -1,0 +1,100 @@
+.cstmr_sec {
+
+    .cmn_hdr {
+        text-align: center;
+
+        img {
+            margin-inline: auto;
+        }
+
+        span {
+            color: $bg_regular;
+            font-weight: 700;
+        }
+
+        .rating {
+            @include only_Flex();
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+
+            h2 {
+                font-size: 50px;
+            }
+        }
+    }
+
+    .customer_swpr_otr .swpr_otr {
+        padding-block-start: 100px;
+        padding-block-end: 100px;
+
+        .cmn_hdr {
+            @include only_Flex();
+            gap: 5px;
+            align-items: center;
+
+            h6 {
+                color: #bfbfbf;
+            }
+
+            span {
+                font-size: 11px;
+
+                &:last-child {
+                    color: #e0e0e0;
+                }
+            }
+        }
+
+        .swpr_sld-inr {
+            padding: 50px 20px;
+            background-color: #fff;
+            height: 300px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 10px;
+            border-bottom: 2px solid transparent;
+            position: relative;
+
+            .man_img {
+                position: absolute;
+                right: 20px;
+                top: -15%;
+                width: 75px;
+                height: 75px;
+                border-radius: 50%;
+                overflow: hidden;
+            }
+
+            .mn_cntnt {
+                margin-top: 20px;
+            }
+        }
+
+        .swpr_btn {
+            margin-top: 30px;
+
+            a {
+                color: $bg_regular;
+                font-size: 20px;
+            }
+        }
+
+        .swiper-slide-active .swpr_sld-inr {
+            height: 350px;
+            border-bottom: 2px solid $bg_black;
+        }
+
+        .swiper-pagination-clickable .swiper-pagination-bullet {
+            background-color: $bg_regular;
+            border: 1px solid $bg_black !important;
+            background-color: transparent;
+            vertical-align: middle !important;
+            width: 10px;
+            height: 10px;
+        }
+
+        .swiper-pagination-bullet.swiper-pagination-bullet-active {
+            background-color: $bg_regular;
+        }
+    }
+}
